@@ -43,6 +43,9 @@ We want to be able to extract useful keywords from this paragraph. For this purp
 
 <br>
 <br>
+![skills](https://github.com/ruchakhopkar/Web_Scraping_And_Analysis/assets/70127769/c4a05de2-21cb-436a-8573-8615859fc7ef)
+
+We see most of the jobs include keywords like 
 
 ### Conclusion:
 This project might help a person looking for jobs to check and analyze their skills and the current job market. They might also extend this project to directly apply to the jobs through the job links.
