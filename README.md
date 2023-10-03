@@ -41,12 +41,13 @@ To get the minimum educational requirements and the keywords in the job descript
 **Extracting keywords from Job Description:**
 The job description is usually mentioned as a paragraph. <br>
 We want to be able to extract useful keywords from this paragraph. For this purpose, we use the spaCy model for English Language Processing. It contains pre-trained components for tokenization, part-of-speech tagging, dependency parsing, and named entity recognition. We send the job description text from this spaCy model which would return information about each token. We then subset the tokens by checking if the token is a noun and it has a verb that it depends on. We then do a second check to see if the token is present in the 'Responsibilities', 'Qualifications' or 'Skills' section or are present in the common_job_skills required by a Data Scientist.
-
 <br>
 <br>
-![skills](https://github.com/ruchakhopkar/Web_Scraping_And_Analysis/assets/70127769/c4a05de2-21cb-436a-8573-8615859fc7ef)
 
-We see most of the jobs include keywords like 
+![skills](https://github.com/ruchakhopkar/Web_Scraping_And_Analysis/assets/70127769/0a50054a-b851-4fcf-aadf-cecc1cf38da9)
 
+We see most of the jobs include keywords like work experience, backgrounds(referring to knowledge diversity), data and technology,deadlines(ability to meet deadlines), model, frameworks and training(referring to Machine Learning skills) amongst many more. 
+![company_bar_plot](https://github.com/ruchakhopkar/Web_Scraping_And_Analysis/assets/70127769/2aa3761b-3935-4c88-9663-01fc2ecb7e3e)
+We see a lot of openings from the companies 'All Things Monadnock' and 'Pattern Learning AI'. 
 ### Conclusion:
 This project might help a person looking for jobs to check and analyze their skills and the current job market. They might also extend this project to directly apply to the jobs through the job links.
