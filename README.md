@@ -8,7 +8,8 @@ Natural Language Processing: nltk, spacy
 Supporting Libraries: numpy, pandas, regex
 
 ### Pipeline
-![web scraping](https://github.com/ruchakhopkar/Web_Scraping_And_Analysis/assets/70127769/c23607f2-ac74-47a5-ab4f-29f3a3fb5f97)
+![web scraping (1)](https://github.com/ruchakhopkar/Web_Scraping_And_Analysis/assets/70127769/7324dfcc-61ff-487a-a52f-34952a7cbde7)
+
 
 
 ### Description
